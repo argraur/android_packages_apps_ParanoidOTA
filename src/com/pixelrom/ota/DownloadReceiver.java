@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota;
+package com.pixelrom.ota;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
