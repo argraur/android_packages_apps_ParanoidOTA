@@ -17,12 +17,12 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers.recovery;
+package com.pixelrom.ota.helpers.recovery;
 
 import android.content.Context;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.Utils;
+import com.pixelrom.ota.IOUtils;
+import com.pixelrom.ota.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
