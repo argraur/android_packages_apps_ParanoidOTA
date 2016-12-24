@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.cards;
+package com.pixelrom.ota.cards;
 
 import android.content.Context;
 import android.net.Uri;
@@ -28,14 +28,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.paranoid.paranoidota.MainActivity;
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.helpers.DownloadHelper;
-import com.paranoid.paranoidota.helpers.DownloadHelper.DownloadCallback;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
-import com.paranoid.paranoidota.widget.Card;
-import com.paranoid.paranoidota.widget.Item;
-import com.paranoid.paranoidota.widget.Item.OnItemClickListener;
+import com.pixelrom.ota.MainActivity;
+import com.pixelrom.ota.R;
+import com.pixelrom.ota.helpers.DownloadHelper;
+import com.pixelrom.ota.helpers.DownloadHelper.DownloadCallback;
+import com.pixelrom.ota.updater.Updater.PackageInfo;
+import com.pixelrom.ota.widget.Card;
+import com.pixelrom.ota.widget.Item;
+import com.pixelrom.ota.widget.Item.OnItemClickListener;
 
 public class DownloadCard extends Card implements DownloadCallback {
 
