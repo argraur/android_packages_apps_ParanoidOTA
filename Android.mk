@@ -7,7 +7,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4_13 \
     volley
 
-LOCAL_PACKAGE_NAME := ParanoidOTA
+LOCAL_PACKAGE_NAME := GooglePixelROMOTA
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false
