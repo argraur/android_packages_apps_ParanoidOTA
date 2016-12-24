@@ -34,7 +34,7 @@ import java.util.List;
 
 public class PixelROMServer implements Server {
 
-    private static final String URL = "null";
+    private static final String URL = "https://gist.githubusercontent.com/argraur/286c57304ecdd944bd0c847f9a393764/raw/";
 
     private String mDevice = null;
     private String mError = null;
