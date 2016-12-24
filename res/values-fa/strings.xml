@@ -19,7 +19,6 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">پارانویا OTA</string>
   <string name="title_checking">در حال بررسی...</string>
   <string name="check_for_updates">بررسی</string>
   <string name="no_additional_info">اطلاعات اضافی نیست</string>
