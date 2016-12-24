@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.updater;
+package com.pixelrom.ota.updater;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,10 +28,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.helpers.SettingsHelper;
+import com.pixelrom.ota.R;
+import com.pixelrom.ota.Utils;
+import com.pixelrom.ota.Version;
+import com.pixelrom.ota.helpers.SettingsHelper;
 
 import org.json.JSONObject;
 
@@ -66,7 +66,7 @@ public abstract class Updater implements Response.Listener<JSONObject>, Response
         public boolean isGapps();
     }
 
-    public static final String PROPERTY_DEVICE = "ro.pa.device";
+    public static final String PROPERTY_DEVICE = "ro.pixelrom.device";
     public static final String PROPERTY_DEVICE_EXT = "ro.product.device";
 
     public static final int NOTIFICATION_ID = 122303225;
