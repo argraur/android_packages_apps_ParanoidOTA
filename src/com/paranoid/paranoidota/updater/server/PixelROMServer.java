@@ -32,7 +32,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class DlxServer implements Server {
+public class PixelROMServer implements Server {
 
     private static final String URL = "https://gist.githubusercontent.com/argraur/036b1cf0c79ec4b8906af55e6fcfa41d/raw/";
 
