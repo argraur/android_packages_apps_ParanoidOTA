@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.activities;
+package com.pixelrom.ota.activities;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -31,8 +31,8 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.widget.Toast;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.R;
+import com.pixelrom.ota.IOUtils;
+import com.pixelrom.ota.R;
 
 import java.io.File;
 import java.io.Serializable;
