@@ -17,12 +17,12 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.updater.server;
+package com.pixelrom.ota.updater.server;
 
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.updater.Server;
-import com.paranoid.paranoidota.updater.UpdatePackage;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
+import com.pixelrom.ota.Version;
+import com.pixelrom.ota.updater.Server;
+import com.pixelrom.ota.updater.UpdatePackage;
+import com.pixelrom.ota.updater.Updater.PackageInfo;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
