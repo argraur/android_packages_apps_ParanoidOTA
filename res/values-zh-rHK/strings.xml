@@ -19,7 +19,6 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Paranoid OTA</string>
   <string name="title_checking">正在檢查</string>
   <string name="check_for_updates">檢查</string>
   <string name="no_additional_info">沒有額外資訊</string>
