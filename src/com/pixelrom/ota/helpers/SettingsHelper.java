@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers;
+package com.pixelrom.ota.helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
