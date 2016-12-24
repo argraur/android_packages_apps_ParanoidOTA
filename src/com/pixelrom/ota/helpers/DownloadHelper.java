@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers;
+package com.pixelrom.ota.helpers;
 
 import android.app.AlertDialog;
 import android.app.DownloadManager;
@@ -30,8 +30,8 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Handler;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.R;
+import com.pixelrom.ota.IOUtils;
+import com.pixelrom.ota.R;
 
 import java.io.BufferedInputStream;
 import java.io.File;
