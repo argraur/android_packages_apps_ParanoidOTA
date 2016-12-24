@@ -34,7 +34,7 @@ import java.util.List;
 
 public class PixelROMServer implements Server {
 
-    private static final String URL = "http://188.243.96.155:8000/ota/bullhead.txt/";
+    private static final String URL = "http://188.243.96.155:8000/ota/%s.txt/";
 
     private String mDevice = null;
     private String mError = null;
