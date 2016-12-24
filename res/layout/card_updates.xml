@@ -87,7 +87,7 @@
         android:layout_marginTop="@dimen/card_separator_padding"
         android:background="@color/card_border" />
 
-    <com.paranoid.paranoidota.widget.Item
+    <com.pixelrom.ota.widget.Item
         android:id="@+id/check"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
         android:layout_height="@dimen/card_separator_height"
         android:background="@color/card_border" />
 
-    <com.paranoid.paranoidota.widget.Item
+    <com.pixelrom.ota.widget.Item
         android:id="@+id/download"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
