@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.activities;
+package com.pixelrom.ota.activities;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -35,12 +35,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.URLStringReader;
-import com.paranoid.paranoidota.URLStringReader.URLStringReaderListener;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.helpers.SettingsHelper;
-import com.paranoid.paranoidota.widget.Preference;
+import com.pixelrom.ota.R;
+import com.pixelrom.ota.URLStringReader;
+import com.pixelrom.ota.URLStringReader.URLStringReaderListener;
+import com.pixelrom.ota.Utils;
+import com.pixelrom.ota.helpers.SettingsHelper;
+import com.pixelrom.ota.widget.Preference;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
