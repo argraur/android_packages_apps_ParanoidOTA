@@ -40,7 +40,7 @@ public class TwrpRecovery extends RecoveryInfo {
 
     @Override
     public String getCommandsFile() {
-        return "openrecoveryscript";
+        return "command";
     }
 
     @Override
@@ -83,15 +83,15 @@ public class TwrpRecovery extends RecoveryInfo {
         }
 
         if (wipeData) {
-            commands.add("wipe data");
+            commands.add("--wipe_data");
         }
         if (wipeCaches) {
-            commands.add("wipe cache");
+            commands.add("--wipe_cache");
             commands.add("wipe dalvik");
         }
 
         for (; i < size; i++) {
-            commands.add("install " + items[i]);
+            commands.add("--update_package=" + items[i]);
         }
 
         return commands.toArray(new String[commands.size()]);
