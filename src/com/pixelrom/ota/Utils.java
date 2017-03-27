@@ -65,7 +65,7 @@ public class Utils {
     public static final int ROM_ALARM_ID = 122303221;
     public static final int GAPPS_ALARM_ID = 122303222;
 
-    public static final int TWRP = 1;
+    public static final int AOSP = 1;
     public static final int CWM_BASED = 2;
 
     public static PackageInfo[] sPackageInfosRom = new PackageInfo[0];

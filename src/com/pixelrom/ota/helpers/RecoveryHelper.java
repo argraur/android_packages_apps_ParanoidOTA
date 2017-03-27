@@ -26,7 +26,7 @@ import com.pixelrom.ota.IOUtils;
 import com.pixelrom.ota.Utils;
 import com.pixelrom.ota.helpers.recovery.CwmBasedRecovery;
 import com.pixelrom.ota.helpers.recovery.RecoveryInfo;
-import com.pixelrom.ota.helpers.recovery.TwrpRecovery;
+import com.pixelrom.ota.helpers.recovery.AospRecovery;
 
 public class RecoveryHelper {
 
@@ -38,7 +38,7 @@ public class RecoveryHelper {
         mContext = context;
 
         mRecoveries.put(Utils.CWM_BASED, new CwmBasedRecovery(context));
-        mRecoveries.put(Utils.TWRP, new TwrpRecovery());
+        mRecoveries.put(Utils.AOSP, new AospRecovery());
     }
 
     public RecoveryInfo getRecovery(int id) {
@@ -75,7 +75,8 @@ public class RecoveryHelper {
                 "/storage/sdcard/",
                 "/sdcard",
                 "/storage/sdcard0",
-                "/storage/emulated/0"
+                "/storage/emulated/0",
+		"/data/media/0"
         };
         String[] externalNames = new String[] {
                 secondarySdcard == null ? " " : secondarySdcard,
