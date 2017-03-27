@@ -82,12 +82,12 @@ public class TwrpRecovery extends RecoveryInfo {
             commands.add(str + "O " + backupFolder);
         }
         
-        commands.add("--set_encrypted_filesystem=on");
         if (wipeData) {
             commands.add("wipe data");
         }
         if (wipeCaches) {
             commands.add("wipe cache");
+            commands.add("wipe dalvik");
         }
 
         for (; i < size; i++) {
