@@ -190,7 +190,7 @@ public class RebootHelper {
     }
 
     private void reboot(final Context context, final String[] items, final boolean wipeData,
-            final boolean wipeCaches, final String backupFolder, final String backupOptions) {
+            final boolean wipeCaches) {
 
         try {
 
@@ -214,7 +214,7 @@ public class RebootHelper {
                     }
 
                     String[] commands = mRecoveryHelper.getCommands(recoveries[i], files, items,
-                            wipeData, wipeCaches, backupFolder, backupOptions);
+                            wipeData, wipeCaches);
                     if (commands != null) {
                         int size = commands.length, j = 0;
                         for (; j < size; j++) {
