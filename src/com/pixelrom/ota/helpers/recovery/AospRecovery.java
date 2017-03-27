@@ -81,13 +81,13 @@ public class AospRecovery extends RecoveryInfo {
             }
             commands.add(str + "O " + backupFolder);
         }
-
+        
+        commands.add("--set_encrypted_filesystem=on");
         if (wipeData) {
             commands.add("--wipe_data");
         }
         if (wipeCaches) {
             commands.add("--wipe_cache");
-            commands.add("wipe dalvik");
         }
 
         for (; i < size; i++) {
