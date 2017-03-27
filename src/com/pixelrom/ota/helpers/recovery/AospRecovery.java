@@ -45,7 +45,7 @@ public class AospRecovery extends RecoveryInfo {
 
     @Override
     public String[] getCommands(Context context, String[] items, String[] originalItems,
-            boolean wipeData, boolean wipeCaches, String backupOptions)
+            boolean wipeData, boolean wipeCaches)
             throws Exception {
 
         List<String> commands = new ArrayList<String>();
